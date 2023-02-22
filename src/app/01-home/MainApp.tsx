@@ -1,5 +1,5 @@
-import { Content } from "../content/Content";
-import { Header } from "../header/Header";
+import { Content } from "../04-content/Content";
+import { Header } from "../02-header/Header";
 import './MainApp.scss';
 
 export const MainApp = () => 
