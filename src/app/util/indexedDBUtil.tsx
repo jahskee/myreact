@@ -108,7 +108,7 @@ async function getItem(key: string): Promise<any> {
   if (!indexedDB) {
     return Promise.resolve(false);
   }
-  let txn = null;
+  let txn:any = null;
   try {
     txn = db.transaction(['cache'], 'readonly');
   } catch (e) {
