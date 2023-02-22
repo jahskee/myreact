@@ -1,6 +1,8 @@
-import { Content } from "../04-content/Content";
-import { Header } from "../02-header/Header";
+import React from 'react';
+import { Content } from '../04-content/Content';
+import { Header } from '../02-header/Header';
 import './MainApp.scss';
+
 
 export const MainApp = () => 
     <div className="container">
